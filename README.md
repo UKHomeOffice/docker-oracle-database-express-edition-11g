@@ -11,7 +11,7 @@ However this doesn't mean the setup process has to be horribly complicated. Simp
 Your Dockerfile will be tiny and look like this
 
 ```Dockerfile
-FROM purplebooth/oracle-xe-11g:0.1.0
+FROM purplebooth/oracle-xe-11g:0.1.2
 ```
 
 See /example if you're not sure what I mean.
@@ -20,6 +20,16 @@ See /example if you're not sure what I mean.
 
 This was built for oracle-xe-11.2.0-1.0, however with minor tweaks it would probably work for other versions. This is untested.
 
-### Docker tags
+# Docker tags
 
 We use [SemVer](http://semver.io/) for the version tags available See the tags on this repository. 
+
+# Find us on the docker repository
+
+[purplebooth/oracle-xe-11g](https://registry.hub.docker.com/u/purplebooth/oracle-xe-11g)
+
+# Contributing
+
+Feel free to create pull requests or issues. 
+
+We follow the [Contributor Covenant](http://contributor-covenant.org/).

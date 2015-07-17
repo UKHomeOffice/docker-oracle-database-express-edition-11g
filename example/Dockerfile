@@ -1,2 +1,2 @@
-FROM purplebooth/oracle-xe-11g:0.1.0
+FROM purplebooth/oracle-xe-11g:0.1.2
 
