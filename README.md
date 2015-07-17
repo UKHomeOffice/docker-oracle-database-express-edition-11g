@@ -13,7 +13,7 @@ However this doesn't mean the setup process has to be horribly complicated. Simp
 Your Dockerfile will be tiny and look like this
 
 ```Dockerfile
-FROM purplebooth/oracle-xe-11g:0.1.3
+FROM purplebooth/oracle-xe-11g:0.1.4
 ```
 
 See /example if you're not sure what I mean.
@@ -42,4 +42,4 @@ We use [SemVer](http://semver.io/) for the version tags available See the tags o
 
 Feel free to create pull requests or issues. 
 
-We follow the [Contributor Covenant](http://contributor-covenant.org/).
+Please note that this project is released with a [Contributor Code of Conduct](https://github.com/UKHomeOffice/docker-oracle-database-express-edition-11g/blob/master/code_of_conduct.md). By participating in this project you agree to abide by its terms.
