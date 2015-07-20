@@ -29,7 +29,8 @@ ONBUILD RUN rpm --rebuilddb && rpm -i --noscripts *.rpm
 ONBUILD RUN rpm -qp --scripts *.rpm > postinstall.sh
 ONBUILD RUN sed -i -e '1,/^postinstall scriptlet/ d' -e '/^[a-z][a-z]* scriptlet/,$ d' postinstall.sh
 ONBUILD RUN bash postinstall.sh
-ONBUILD RUN rm *.rpm
+ONBUILD WORKDIR /
+ONBUILD RUN rm -rf /build
 
 ONBUILD RUN mv /init.ora /u01/app/oracle/product/11.2.0/xe/config/scripts
 ONBUILD RUN mv /initXETemp.ora /u01/app/oracle/product/11.2.0/xe/config/scripts

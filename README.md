@@ -13,7 +13,7 @@ However this doesn't mean the setup process has to be horribly complicated. Simp
 Your Dockerfile will be tiny and look like this
 
 ```Dockerfile
-FROM ukhomeofficedigital/oracle-xe-11g:2.0.1
+FROM ukhomeofficedigital/oracle-xe-11g:2.0.2
 ```
 
 See /example if you're not sure what I mean.
