@@ -8,12 +8,12 @@ This provides a docker container for Oracle XE 11g.
 
 Due to licensing problems we cannot distribute the oracle RPM.
 
-However this doesn't mean the setup process has to be horribly complicated. Simply create a new docker file that extends this docker file, place the [zip from oracle with the RPM in](http://www.oracle.com/technetwork/database/database-technologies/express-edition/downloads/index.html) in the same directory, and build it.
+However this doesn't mean the setup process has to be horribly complicated. Simply create a new docker file that extends this docker file, place the [zip from oracle with the RPM in](http://www.oracle.com/technetwork/database/database-technologies/express-edition/downloads/index.html) a ```docker_files``` directory, and build it.
 
 Your Dockerfile will be tiny and look like this
 
 ```Dockerfile
-FROM ukhomeofficedigital/oracle-xe-11g:1.0.0
+FROM ukhomeofficedigital/oracle-xe-11g:2.0.0
 ```
 
 See /example if you're not sure what I mean.

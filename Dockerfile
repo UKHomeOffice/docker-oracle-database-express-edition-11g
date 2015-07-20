@@ -21,7 +21,7 @@ RUN groupadd dba
 RUN useradd -G dba oracle
 
 ONBUILD WORKDIR /build
-ONBUILD COPY oracle-xe-11*.zip /build/
+ONBUILD COPY docker_files/oracle-xe-11*.zip /build/
 ONBUILD RUN unzip oracle-xe-11*.zip
 ONBUILD WORKDIR /build/Disk1
 ONBUILD RUN (yum deplist *.rpm | awk '/provider/ {print $2}' | sort -u | xargs yum -y install) && yum clean all

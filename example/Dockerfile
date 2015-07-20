@@ -1,2 +1,2 @@
-FROM ukhomeofficedigital/oracle-xe-11g:1.0.0
+FROM ukhomeofficedigital/oracle-xe-11g:2.0.0
 
