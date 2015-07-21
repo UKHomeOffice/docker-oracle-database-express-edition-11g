@@ -32,7 +32,7 @@ This was built for oracle-xe-11.2.0-1.0, however with minor tweaks it would prob
 
 # Docker tags
 
-We use [SemVer](http://semver.io/) for the version tags available See the tags on this repository. 
+We use [SemVer](http://semver.org/) for the version tags available See the tags on this repository. 
 
 # Find us
 
