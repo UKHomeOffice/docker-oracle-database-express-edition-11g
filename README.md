@@ -10,13 +10,13 @@ Due to licensing problems we cannot distribute the oracle RPM.
 
 However this doesn't mean the setup process has to be horribly complicated. Simply create a new docker file that extends this docker file, place the [zip from oracle with the RPM in](http://www.oracle.com/technetwork/database/database-technologies/express-edition/downloads/index.html) a ```docker_files``` directory, and build it.
 
-Your Dockerfile will be tiny and look like this
+Your Dockerfile will be tiny and look like this:
 
 ```Dockerfile
 FROM ukhomeofficedigital/oracle-xe-11g:2.0.2
 ```
 
-See /example if you're not sure what I mean.
+See [/example](https://github.com/UKHomeOffice/docker-oracle-database-express-edition-11g/tree/master/example) if you're not sure what I mean.
 
 ### Volumes
 
