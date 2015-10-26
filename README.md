@@ -1,5 +1,7 @@
 # Oracle Database Express Edition 11g Container
 
+[![Build Status](https://travis-ci.org/UKHomeOffice/docker-oracle-database-express-edition-11g.svg?branch=master)](https://travis-ci.org/UKHomeOffice/docker-oracle-database-express-edition-11g)
+
 This provides a docker container for Oracle XE 11g.
 
 ## Usage
